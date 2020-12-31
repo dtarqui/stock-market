@@ -1,7 +1,3 @@
-import {
-    get
-} from "core-js/fn/dict"
-
 const state = {
     funds: 10000,
     stocks: []
