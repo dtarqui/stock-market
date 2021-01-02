@@ -8,6 +8,9 @@
 import { mapGetters } from "vuex";
 import Stock from "./Stock.vue";
 export default {
+  mounted() {
+    console.log(this.stocks);
+  },
   computed: {
     ...mapGetters({
       stocks: "stockPortfolio",

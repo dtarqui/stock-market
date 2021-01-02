@@ -12,6 +12,11 @@ const router = new VueRouter({
   routes: routes
 })
 
+Vue.filter('currency', (value) => {
+  return "$" + value.toLocaleString()
+
+})
+
 new Vue({
   router: router,
   store,
