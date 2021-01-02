@@ -50,7 +50,7 @@ export default {
     },
   },
   methods: {
-    ...mapActions([{ placeSellOrder: "sellStock" }]),
+    ...mapActions({ placeSellOrder: "sellStock" }),
     sellStock() {
       const order = {
         stockId: this.stock.id,
