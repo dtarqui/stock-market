@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="container">
+  <div>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <Header></Header>
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-md-12">
         <transition name="slide" mode="out-in">
           <router-view></router-view>
         </transition>
